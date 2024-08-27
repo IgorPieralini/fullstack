@@ -1,0 +1,18 @@
+table {
+    border-collapse: collapse;
+    width: 45%;
+    text-align: center;
+    color: black;
+    transition: color 0.7s;
+    background-color: white;
+    transition: background-color 0.7s;
+}
+
+table:hover{
+    color: burlywood;
+    background-color: rgb(75, 71, 71);
+}
+
+table a:hover{
+    color: burlywood;
+}
