@@ -1,0 +1,33 @@
+.dropdown{
+    list-style: none;
+}
+
+h1{
+    color: rgba(12, 12, 12, 0.96);
+    font-family: Consolas;
+    font-size: 30px;
+}
+
+h2{
+    color: chocolate;
+    font-family: Consolas;
+    font-size: 25px;
+}
+
+h3{
+    color: #0569ff;
+    font-family: Consolas;
+    font-size: 18px;
+}
+
+p{
+    color: black;
+    font-family: Arial;
+    font-size: 14px;
+}
+
+li{
+    color: black;
+    font-family: "Arial Rounded MT Bold";
+    font-size: 16px;
+}
