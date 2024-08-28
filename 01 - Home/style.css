@@ -1,33 +1,83 @@
-.dropdown{
-    list-style: none;
-}
-
 h1{
-    color: rgba(12, 12, 12, 0.96);
+    color: white;
     font-family: Consolas;
-    font-size: 30px;
+    font-size: 40px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    display: grid;
+    place-items: center;
 }
 
 h2{
-    color: chocolate;
+    color: dodgerblue;
     font-family: Consolas;
-    font-size: 25px;
+    font-size: 28px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    display: grid;
+    place-items: center;
+
 }
 
 h3{
-    color: #0569ff;
+    color: lightskyblue;
+    font-style: italic;
     font-family: Consolas;
-    font-size: 18px;
+    font-size: 24px;
+    display: grid;
+    place-items: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
 }
 
 p{
     color: black;
     font-family: Arial;
-    font-size: 14px;
+    font-size: 18px;
+    display: grid;
+    place-items: center;
 }
 
 li{
     color: black;
     font-family: "Arial Rounded MT Bold";
     font-size: 16px;
+    list-style-type: square;
+    display: grid;
+    place-items: center;
+}
+
+a{
+    color: mediumpurple;
+    font-family: "Arial Rounded MT Bold";
+    font-size: 16px;
+    list-style-type: square;
+    display: grid;
+    place-items: center;
+}
+
+.prog, .myprofile{
+    text-align: center;
+}
+
+.videos, .location{
+    text-align: center;
+}
+
+table{
+    margin: auto;
+    margin: auto;
+    width: 80%;
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+.table{
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+}
+
+td, th{
+    text-align: center;
 }
