@@ -4,8 +4,8 @@ h1{
     font-size: 40px;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #000;
+    text-align: center;
     display: grid;
-    place-items: center;
 }
 
 h2{
@@ -14,8 +14,8 @@ h2{
     font-size: 28px;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #000;
+    text-align: center;
     display: grid;
-    place-items: center;
 
 }
 
@@ -24,18 +24,18 @@ h3{
     font-style: italic;
     font-family: Consolas;
     font-size: 24px;
-    display: grid;
-    place-items: center;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #000;
+    text-align: center;
+    display: grid;
 }
 
 p{
     color: black;
     font-family: Arial;
     font-size: 18px;
+    text-align: center;
     display: grid;
-    place-items: center;
 }
 
 li{
@@ -43,8 +43,8 @@ li{
     font-family: "Arial Rounded MT Bold";
     font-size: 16px;
     list-style-type: square;
+    text-align: center;
     display: grid;
-    place-items: center;
 }
 
 a{
@@ -52,16 +52,22 @@ a{
     font-family: "Arial Rounded MT Bold";
     font-size: 16px;
     list-style-type: square;
+    text-align: center;
     display: grid;
-    place-items: center;
 }
 
 .prog, .myprofile{
     text-align: center;
+    align-items: center;
+    margin: auto;
+    display: block;
 }
 
 .videos, .location{
     text-align: center;
+    align-items: center;
+    margin: auto;
+    display: block;
 }
 
 table{
@@ -70,6 +76,7 @@ table{
     width: 80%;
     max-width: 100%;
     overflow-x: auto;
+    
 }
 
 .table{
@@ -80,4 +87,11 @@ table{
 
 td, th{
     text-align: center;
+}
+
+p image{
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    display: block;
 }

@@ -1,0 +1,37 @@
+.teste{ 
+    display: table-cell;  
+}
+
+#imgteste{
+    display: table-cell;
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-top: 40px;
+}
+
+.corpo{
+    margin: auto;
+    height: 300px;
+    width: 700px; 
+    align-items: center;
+}
+
+.sub{
+    display: table-cell; 
+    position: relative; 
+    right: -100%;
+}
+
+.bio2{
+    background-color: rgba(245, 245, 245, 50%);
+    margin: auto;
+    margin-top: 20px;
+    width: 870px;
+
+    border-radius: 20px;
+}
+
+.bio3{
+    margin-top: 40px;
+}
