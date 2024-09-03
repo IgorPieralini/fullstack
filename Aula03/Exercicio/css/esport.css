@@ -1,0 +1,47 @@
+#t1{
+    position: relative;
+    left: 400px;
+    border: solid;
+    display: inline-block;
+    border-radius: 20px;
+    margin: auto;
+    width: 290px;
+    height: 40px;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+#p1{
+    position: relative;
+    left: 490px;
+    top: 60px;
+    border: solid;
+    display: inline-block;
+    border-radius: 20px;
+    width: 600px;
+    height: 150px;
+    background-color: antiquewhite;
+
+    text-align: center;
+    align-items: center;
+}   
+
+#p2{
+    top: 150px;
+    position: relative;
+    display: block;
+    height: 60px;
+    width: 600;
+    background-color: rgba(204, 197, 197, 70%);
+
+    text-align: center;
+    align-items: center;
+}
+
+img{
+    position: relative;
+    left: 540px;
+    top: 180px;
+
+}

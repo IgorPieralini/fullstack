@@ -1,0 +1,36 @@
+#img1{
+    position: relative;
+    left: 400px;
+    border: solid;
+    display: inline-block;
+    border-radius: 20px;
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    align-items: center;
+    text-align: center;
+    color: white;
+    top: 60px;
+}
+
+#p1{
+    position: relative;
+    left: 490px;
+    top: 10px;
+    border: solid;
+    display: inline-block;
+    border-radius: 20px;
+    width: 600px;
+    height: 150px;
+    background-color: antiquewhite;
+
+    text-align: center;
+    align-items: center;
+}
+
+h1{
+    color: aliceblue;
+    width: 100%;
+    text-align: center;
+    left: 50%;
+}
