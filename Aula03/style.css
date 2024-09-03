@@ -1,0 +1,85 @@
+#el1{
+    position: relative;
+    top: 20px;
+    border: solid;
+    display: inline-block;
+    border-radius: 20px;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    text-align: center;
+    left: 200px;
+}
+
+.dotted{
+    position: relative;
+    left: 400px;
+    top: 20px;
+    border: solid;
+    display: inline-block;
+    border-radius: 20px;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    text-align: center;
+}
+
+a{
+    position: relative;
+    left: 600px;
+    top: 20px;
+    border: solid black;
+    display: inline-block;
+    border-radius: 20px;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    text-align: center;
+}
+
+h2{
+    top: 60px;
+    display: inline-block;
+    position: relative;
+    width: auto;
+    height: auto;
+    border: solid 2px;
+}
+
+h2:hover{
+    color: rebeccapurple;
+}
+
+.green{
+    position: relative;
+    display: block;
+    top: 40px;
+    width: 100%;
+    background-color: green; 
+    height: 80px;   
+}
+
+.green:hover{
+    background-color: rebeccapurple;
+}
+
+.blue:hover{
+    background-color: rebeccapurple;
+}
+
+.blue{
+    top: 40px;
+    width: 100%;
+    display: block;
+    position: relative;
+    background-color: blue;
+    height: 80px;
+}   
+
+div{
+    position: relative;
+    top: 20px;
+}
