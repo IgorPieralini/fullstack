@@ -1,0 +1,195 @@
+body{
+    background-color: lightblue ;
+}
+
+h1{
+    color: darkgreen;
+    position: relative;
+    border: transparent thin solid;
+    padding: 5px;
+    margin: 0px 10px 10px 0;
+    max-width: 186px;
+    display: inline-block;
+    left: 650px;
+    top: 50px;
+}
+
+.title{
+    background-color: bisque;
+    display: block;
+    border: 2px solid blue;
+    height: 160px;
+}
+
+#img1{
+    float: left;
+    border: transparent thin solid;
+    padding: 5px;
+    margin: 0px 10px 10px 0;
+    max-width: 186px;
+}
+
+
+#img2{
+    float: right;
+    border: transparent thin solid;
+    padding: 5px;
+    margin: 0px 10px 10px 0;
+    max-width: 186px;
+}
+
+.menu{
+    background-color: lightskyblue;
+    display: block;
+    height: 20px;
+    width: 100%;
+}
+
+#p1{
+    position: relative;
+    border: transparent thin solid;
+    padding: 5px;
+    margin: 0px 10px 10px 0;
+    max-width: 186px;
+    display: inline-block;
+    left: 640px;
+    top: -15px;
+    color: rgb(161, 106, 4);
+}
+
+#p2{
+    position: relative;
+    border: transparent thin solid;
+    padding: 5px;
+    margin: 0px 10px 10px 0;
+    max-width: 186px;
+    display: inline-block;
+    left: 740px;
+    top: -15px;
+    color: rgb(161, 106, 4);
+}
+
+#p3{
+    position: relative;
+    border: transparent thin solid;
+    padding: 5px;
+    margin: 0px 10px 10px 0;
+    max-width: 186px;
+    display: inline-block;
+    left: 840px;
+    top: -15px;
+    color: rgb(161, 106, 4);
+}
+
+#p4{
+    position: relative;
+    border: transparent thin solid;
+    padding: 5px;
+    margin: 0px 10px 10px 0;
+    max-width: 186px;
+    display: inline-block;
+    left: 940px;
+    top: -15px;
+    color: rgb(161, 106, 4);
+}
+
+h3{
+    position: relative;
+    display: block;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    top: 20px;
+    font-size: 24px;
+}
+
+#pp1{
+    position: relative;
+    width: 40%;
+    color: darkblue;
+    align-items: center;
+    text-align: center;
+    left: 550px;
+}
+
+#pp2{
+    position: relative;
+    width: 40%;
+    color: darkblue;
+    align-items: center;
+    text-align: center;
+    left: 550px;
+}
+
+#pp3{
+    position: relative;
+    width: 40%;
+    color: darkblue;
+    align-items: center;
+    text-align: center;
+    left: 550px;
+}
+
+.img{
+    align-items: center;
+    text-align: center;
+}
+
+#img3{
+    position: relative;
+    margin: 0px 20px 10px 0;
+    padding: 5px, 20px;
+    left: 370px;
+}
+
+#img4{
+    position: relative;
+    margin: 0px 20px 10px 0;
+    padding: 5px, 20px;
+    left: 470px;
+}
+
+#img5{
+    position: relative;
+    margin: 0px 20px 10px 0;
+    padding: 5px, 20px;
+    left: 570px;
+}
+
+iframe{
+    position: relative;
+    margin: 0px 90px 10px 0;
+    padding: 5px, 20px;
+    left: 570px; 
+}
+
+table{
+    position: relative;
+    border: dotted 2px red;
+    align-items: center;
+    width: 30%;
+    text-align: center;
+    left: 650px;
+}
+
+td{
+    border: solid 2px red;
+}
+
+th{
+    border: solid 2px red;
+}
+
+.teste{
+    position: relative;
+    background-color: yellow;
+    align-items: center;
+    text-align: center;
+    left: 560px;
+    width: 40%;
+}
+
+li p{
+    color: brown;
+}
