@@ -1,0 +1,48 @@
+.flex-container{
+    height: 400px;
+    background-color: rgb(92, 92, 92);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.flex-container div {
+    background-color: aquamarine;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+#d1{
+    order: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    align-self: center;
+}
+
+#d2{
+    order: 2;
+    flex-grow: 2;
+    flex-shrink: 2;
+    align-self: center;
+}
+
+#d3{
+    order: 3;
+    flex-grow: 3;
+     align-self: flex-end;
+}
+
+#d4{
+    order: 4;
+    flex-basis: 200px;
+    align-self: flex-start;
+}
+
+/**
+flex-direction(row{Padrão}; row-reverse; column, column-reverse)
+flex-wrap(nowrap; wrap; wrap-reverse)
+flex-flow({flex-directions}; {flex-flow})
+justify-content(center; start-end, space)
+align-content
+align-items
+**/
