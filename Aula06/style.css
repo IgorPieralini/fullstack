@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(64, 64, 212);
+}
+
+.inputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+input{
+    margin: 5px;
+}
