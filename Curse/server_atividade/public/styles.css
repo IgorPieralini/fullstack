@@ -1,0 +1,38 @@
+body {
+    background-color: #f0f8ff; /* Azul claro */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+h1 {
+    color: #00008b; /* Azul escuro */
+}
+
+p, label {
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+button {
+    background-color: #00008b; /* Azul escuro */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #333;
+}

@@ -1,0 +1,15 @@
+{
+  "name": "MeuServidorWeb_Updated",
+  "version": "1.0.0",
+  "description": "Servidor web com Node.js, Express e EJS",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ejs": "^3.1.6"
+  },
+  "author": "",
+  "license": "ISC"
+}
