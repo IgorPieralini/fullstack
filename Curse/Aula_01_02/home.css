@@ -1,125 +1,119 @@
-.teste{ 
-    display: table-cell;  
-}
-
-#imgteste{
-    display: table-cell;
-    float: left;
-    width: 200px;
-    height: 200px;
-    margin-top: 40px;
-}
-
-.corpo{
-    margin: auto;
-    height: 300px;
-    width: 700px;
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #e0f7fa, #80deea);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
-.sub{
-    display: table-cell; 
-    position: relative; 
-    right: -100%;
+.container {
+    width: 100%;
 }
 
-.bio2{
-    background-color: rgba(245, 245, 245, 50%);
-    margin: auto;
+.bio2, .parte2, .servidor {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 850px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+#imgteste {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+}
+
+.sub {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
     margin-top: 20px;
-    width: 870px;
-
-    border-radius: 20px;
 }
 
-.bio3{
-    margin-top: 40px;
+.teste {
+    color: #555;
+    line-height: 1.6;
+    text-align: center;
 }
 
-.parte2{
-    background-color: rgba(245, 245, 245, 50%);
-    width: 60%;
-    height: 230px;
-    border-radius: 20px;
-    align-items: center;
+.parte21, .parte22, .server, .info {
+    background-color: #f9fafc;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.parte21 h2, .parte22 h2, .server h3, .info h3 {
+    color: #444;
+}
+
+.prog img {
+    margin: 10px;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.prog img:hover {
+    transform: scale(1.1);
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.link1, .link2 {
+    padding: 10px;
+    margin: 5px;
+    background-color: #80deea;
+    color: white;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+    text-align: center;
+    width: 150px;
+}
+
+.link1:hover, .link2:hover {
+    background-color: #4dd0e1;
+}
+
+#pteste {
+    font-size: 18px;
+    color: #444;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     margin: auto;
 }
 
-.parte21{
-    display: table-cell;
-    border-radius: 20px;
-    width: 50%;
-    margin-top: 20px;
-    align-items: center;
-    text-align: center;
-    height: 230px;
-    background-color: rgba(245, 245, 245, 20%);
-}
-
-.parte22{
-    display: table-cell;
-    align-items: center;
-    text-align: center;
-}
-
-.servidor{
-    background-color: rgba(245, 245, 245, 50%);
-    width: 60%;
-    height: 265px;
-    border-radius: 20px;
-    margin: auto;
-    margin-top: 30px;
-}
-
-.server{
-    display: table-cell;
-    width: 50%;
-    align-items: center;
-    text-align: center;
-}
-
-.info{
-    display: table-cell;
-    border-radius: 20px;
-    height: 50%;
-    margin-top: 20px;
-    align-items: center;
-    text-align: center;
-    background-color: rgba(245, 245, 245, 20%);
-}
-
-.links{
-    width: 20%;
-    height: 60px;
-    margin: auto;
-    margin-top: 15px;
-    align-items: center;
-    text-align: center;
-}
-
-.link1{
-    display: table-cell;
-    width: 50%;
-    align-items: center;
-    text-align: center;
-}
-.link2{
-    display: table-cell;
-    width: 50%;
-    align-items: center;
-    text-align: center;
-}
-
-#pteste{
-    text-align: center;
-    margin-top: auto;
-    border-radius: 20px;
-    width: 30%;
-    align-items: center;
-    text-align: center;
-    background-color: rgb(245, 245, 245, 50%);
+.location iframe {
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     margin: auto;
 }
 
+h1, h2, h3 {
+    text-align: center;
+    color: #333;
+}
 
+p, ul {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+}

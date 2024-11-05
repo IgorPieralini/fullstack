@@ -1,0 +1,97 @@
+h1{
+    color: white;
+    font-family: Consolas;
+    font-size: 40px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    text-align: center;
+    display: grid;
+}
+
+h2{
+    color: dodgerblue;
+    font-family: Consolas;
+    font-size: 28px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    text-align: center;
+    display: grid;
+
+}
+
+h3{
+    color: lightskyblue;
+    font-style: italic;
+    font-family: Consolas;
+    font-size: 24px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    text-align: center;
+    display: grid;
+}
+
+p{
+    color: black;
+    font-family: Arial;
+    font-size: 18px;
+    text-align: center;
+    display: grid;
+}
+
+li{
+    color: black;
+    font-family: "Arial Rounded MT Bold";
+    font-size: 16px;
+    list-style-type: square;
+    text-align: center;
+    display: grid;
+}
+
+a{
+    color: mediumpurple;
+    font-family: "Arial Rounded MT Bold";
+    font-size: 16px;
+    list-style-type: square;
+    text-align: center;
+    display: grid;
+}
+
+.prog, .myprofile{
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    display: block;
+}
+
+.videos, .location{
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    display: block;
+}
+
+table{
+    margin: auto;
+    margin: auto;
+    width: 80%;
+    max-width: 100%;
+    overflow-x: auto;
+    
+}
+
+.table{
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+}
+
+td, th{
+    text-align: center;
+}
+
+p image{
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    display: block;
+}

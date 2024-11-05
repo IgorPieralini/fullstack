@@ -1,0 +1,125 @@
+.teste{ 
+    display: table-cell;  
+}
+
+#imgteste{
+    display: table-cell;
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-top: 40px;
+}
+
+.corpo{
+    margin: auto;
+    height: 300px;
+    width: 700px;
+    align-items: center;
+}
+
+.sub{
+    display: table-cell; 
+    position: relative; 
+    right: -100%;
+}
+
+.bio2{
+    background-color: rgba(245, 245, 245, 50%);
+    margin: auto;
+    margin-top: 20px;
+    width: 870px;
+
+    border-radius: 20px;
+}
+
+.bio3{
+    margin-top: 40px;
+}
+
+.parte2{
+    background-color: rgba(245, 245, 245, 50%);
+    width: 60%;
+    height: 230px;
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+.parte21{
+    display: table-cell;
+    border-radius: 20px;
+    width: 50%;
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+    height: 230px;
+    background-color: rgba(245, 245, 245, 20%);
+}
+
+.parte22{
+    display: table-cell;
+    align-items: center;
+    text-align: center;
+}
+
+.servidor{
+    background-color: rgba(245, 245, 245, 50%);
+    width: 60%;
+    height: 265px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.server{
+    display: table-cell;
+    width: 50%;
+    align-items: center;
+    text-align: center;
+}
+
+.info{
+    display: table-cell;
+    border-radius: 20px;
+    height: 50%;
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(245, 245, 245, 20%);
+}
+
+.links{
+    width: 20%;
+    height: 60px;
+    margin: auto;
+    margin-top: 15px;
+    align-items: center;
+    text-align: center;
+}
+
+.link1{
+    display: table-cell;
+    width: 50%;
+    align-items: center;
+    text-align: center;
+}
+.link2{
+    display: table-cell;
+    width: 50%;
+    align-items: center;
+    text-align: center;
+}
+
+#pteste{
+    text-align: center;
+    margin-top: auto;
+    border-radius: 20px;
+    width: 30%;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(245, 245, 245, 50%);
+    margin: auto;
+}
+
+
