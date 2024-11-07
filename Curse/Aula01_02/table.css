@@ -5,7 +5,6 @@ table {
     color: black;
     transition: color 0.7s;
     background-color: white;
-    transition: background-color 0.7s;
 }
 
 table:hover{
